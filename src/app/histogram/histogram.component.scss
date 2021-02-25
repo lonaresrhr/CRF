@@ -1,0 +1,87 @@
+.card-text {
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+  }
+  
+  .card-text::before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 5px solid #ffea00;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  .table-height {
+    height: 282px;
+    overflow-y: scroll;
+  
+  }
+  
+  .card-height {
+    height: 80px;
+    padding: 5px !important;
+  }
+  
+  .unit-size {
+    font-size: 15px;
+    color: #767676;
+  }
+  
+  .text-center {
+    text-align: center;
+  
+  }
+  
+  b {
+    color: #0033ab;
+  
+  }
+  
+  .top-margin {
+    margin-top: 15px !important;
+  }
+  
+  .text-color {
+    color: #767676;
+  }
+  
+  .margin-between-tiles {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .card-height-final {
+    height: 100px;
+    padding: 5px !important;
+  }
+  
+  .center {
+    margin: auto;
+    width: 87%;
+    padding-top: 15px;
+  }
+  img
+  {
+    width:150px;
+    height:70px;
+    float:right
+  }
+  .header-class{
+    font-size: 20px;
+    color: #0033ab;
+    float:left
+  
+  }
+  
+  .header-class b{
+   margin-left: 30px;
+  }
+  
